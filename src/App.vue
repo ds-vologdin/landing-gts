@@ -1,17 +1,19 @@
 <template>
   <div id="app">
     <Header/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Main/>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
+import Main from './components/Main.vue';
 
 export default {
   name: 'app',
   components: {
     Header,
+    Main,
   }
 };
 </script>
@@ -23,6 +25,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  padding-top: 60px;
+  background-color: #F7F7F5;
 }
 </style>
