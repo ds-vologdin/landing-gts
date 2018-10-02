@@ -1,26 +1,33 @@
 # landing-gts
 
-## Project setup
+Лэндинк для сбора заявок. Посетитель оставляет свои номер телефона. На почту продажника падает уведомление о том, что надо позвонить.
+
+# Установка
+
 ```
+git clone https://github.com/ds-vologdin/landing-gts.git
+cd landing-gts
 npm install
 ```
 
-### Compiles and hot-reloads for development
+# запуск dev-сервера
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+# server
+
+Пример реализации очень простого сервера на node.js, который обрабатывает запросы от лэндинга на отправку почты.
+
+## установка
 ```
-npm run build
+cd server
+npm install
 ```
 
-### Run your tests
+## запуск
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+cd server
+npm start
 ```
