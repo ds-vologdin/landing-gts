@@ -1,0 +1,8 @@
+const account = {
+  user: 'email@mail.ru',
+  pass: 'password',
+  host: 'smtp.mail.ru',
+  port: 465
+};
+
+module.exports = account;
