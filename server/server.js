@@ -1,8 +1,8 @@
 const express = require('express');
 var cors = require('cors');
-const account = require('./setting_mail_private.js');
-
 const nodemailer = require('nodemailer');
+
+const account = require('./setting_mail_private.js');
 
 const transporter = nodemailer.createTransport({
     host: account.host,
