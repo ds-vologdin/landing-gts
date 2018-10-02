@@ -3,7 +3,7 @@
     <div class='page__header'>Интернет в частный дом</div>
     <div class="page__text">
       <div class="page__text-item-main">Безлимитный фиксированный интернет в г. Кирове и пригороде.</div>
-      <div class="page__text-item-addition">Стабильная скорость и отзывчивая техническая поддрежка.</div>
+      <div class="page__text-item-addition">Стабильная скорость и отзывчивая техническая поддержка.</div>
     </div>
     <input class='page__input' v-model='phone' v-if='!isSend'
            type="tel" id="phone" name="phone"
