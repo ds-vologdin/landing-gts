@@ -1,21 +1,15 @@
 <template>
   <div id="app">
-    <!-- <Header/>
-    <Main/> -->
     <Page/>
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue';
-import Main from './components/Main.vue';
 import Page from './components/Page.vue';
 
 export default {
   name: 'app',
   components: {
-    Header,
-    Main,
     Page,
   }
 };
