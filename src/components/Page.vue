@@ -11,7 +11,7 @@
    <input class='page__input' v-model='phone' v-if='isSend'
           type="tel" id="phone" name="phone"
           placeholder="+7-987-654-32-10" readonly/>
-    <div class='page__error' v-if='isShowError'>Не верный номер. Введите телефона в следующем формате +7-987-654-32-10</div>
+    <div class='page__error' v-if='isShowError'>Неверный номер. Введите телефон в формате +7-987-654-32-10</div>
     <div class="page__button" v-on:click='sendPhone' v-if='!isSend'>Оставить заявку</div>
     <div class="page__button-not-active" v-if='isSend'>Заявка отправлена</div>
     <div class="page__slogan">Ловит там, где не ловит</div>
